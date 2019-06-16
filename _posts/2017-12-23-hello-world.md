@@ -4,6 +4,10 @@ title: Hello World!
 tags: Hydrogen
 ---
 
-Welcome to Hydrogen!<br>If you saw this post, your blog has been successfully deployed.So enjoy the fun of writing now!
+这就是传说中的第一篇博客了。
 
-> Hello Hydrogen!
+支持$L^AT_EX$
+
+```cpp
+//也支持代码
+```
