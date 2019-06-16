@@ -1,9 +1,9 @@
-- name: Link
+- name: Link的博客
   image: https://atlinker.cn/avatar/avatar.png
   url: https://atlinker.cn/
   describe: Link's Blog
   
 - name: 小略的博客
-  image: https://cdn.luogu.org/upload/usericon/66385.png
+  image: http://pic.tonybrown148.ml/luogu/66385.jpg
   url: https://www.lcjtql.ml/
   describe: 小略的博客
