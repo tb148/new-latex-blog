@@ -43,6 +43,21 @@ layout: default
   </script>
 <noscript> 为正常使用评论功能请激活JavaScript</noscript>
 </div>
+  <div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: '{{ page.title }}',
+    owner: 'hahahh0',
+    repo: 'hahahh0.github.io',
+    oauth: {
+        client_id: '47cc9cf1be766d07a603',
+        client_secret: 'f8fa705220d18e094fdf92b4e16ce43042d7bf7c',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 <!-- end LiveRe -->
 {% endcomment %}
   
