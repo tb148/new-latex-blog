@@ -43,20 +43,20 @@ layout: default
   </script>
 <noscript> 为正常使用评论功能请激活JavaScript</noscript>
 </div>
-  <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-    id: '{{ page.title }}',
-    owner: 'tonybrown148',
-    repo: 'new-latex-blog',
-    oauth: {
-        client_id: '9d1b3afb83ae111e84b8',
-        client_secret: '3aed3ac8b0c15c5e0082e85e6fd25f80bbd4afb2',
-    },
-});
-gitment.render('gitmentContainer');
+  id: 'blog.tonybrown148.ml', // 可选。默认为 location.href
+  owner: 'TonyBrown148',
+  repo: 'new-latex-blog',
+  oauth: {
+    client_id: '9d1b3afb83ae111e84b8',
+    client_secret: '3aed3ac8b0c15c5e0082e85e6fd25f80bbd4afb2',
+  },
+})
+gitment.render('container')
 </script>
 <!-- end LiveRe -->
 {% endcomment %}
