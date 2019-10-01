@@ -14,7 +14,7 @@ bulidtime: "1560168492" #博客建立时的时间戳 可进入https://tool.lu/ti
 paginate: 10 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
-background: http://pic.tonybrown148.ml/pony/wallpaper.jpg
+background: https://tb148.github.io/pic/pony/wallpaper.jpg
 theme_color: DF2D8B
 
 google_analytics:
